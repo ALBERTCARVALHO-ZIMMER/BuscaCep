@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <title>BUSCACEP</title>
+
+</head>
+<body>
+    <div class="container">
+        <h2>
+            Busca Cep🔎
+        </h2>
+        <input type="text" onblur="Coletar()" placeholder="digite o Cep" class="input-cep">
+        <input type="text" class="estado" disabled placeholder="Estado">
+        <input type="text" class="cidade" disabled placeholder="Cidade">
+        <input type="text" class="endereco" disabled placeholder="Endereço">
+        <input type="text" class="ddd" disabled placeholder="DDD">
+        <button type="button" onclick="limparFormulario()">Limpar</button>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
